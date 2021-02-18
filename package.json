@@ -1,0 +1,35 @@
+{
+  "name": "@jiesu12/react-modal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/Modal.js",
+  "scripts": {
+    "build": "rm -rf ./lib && tsc && cp src/*.scss lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://githue.com/jiesu12/react-modal.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Jie Su",
+  "license": "ISC",
+  "homepage": "https://github.com/jiesu12/react-modal#readme",
+  "devDependencies": {
+    "@types/react": "^16.9.32",
+    "@types/react-dom": "^16.9.6",
+    "@typescript-eslint/eslint-plugin": "^3.0.0",
+    "@typescript-eslint/parser": "^3.0.0",
+    "eslint": "^7.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "prettier": "^2.0.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "typescript": "^3.8.3"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}

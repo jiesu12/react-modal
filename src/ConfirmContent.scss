@@ -1,0 +1,15 @@
+.confirm-content {
+  max-height: 140px;
+  width: 400px;
+  @media only screen and (max-width: 760px) {
+    width: 280px;
+  }
+
+  .button-panel {
+    display: flex;
+    justify-content: flex-end;
+    button {
+      margin: auto 5px;
+    }
+  }
+}
