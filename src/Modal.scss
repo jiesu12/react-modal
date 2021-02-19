@@ -11,19 +11,23 @@
   .content {
     background-color: #fefefe;
     margin: 30px auto auto auto;
-    padding: 20px;
+    padding: 8px;
     border: 1px solid #888;
     max-height: calc(100vh - 50px);
     max-width: calc(100vw - 20px);
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
 
     .title-bar {
-      min-height: 33px;
-      position: relative;
-      .close-btn {
-        position: absolute;
-        top: -8px;
-        right: -8px;
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 5px;
+      border-bottom: 1px solid lightgray;
+      .modal-title {
+        font-size: 1.2rem;
+        margin-top: 5px;
+        margin-bottom: auto;
       }
     }
 

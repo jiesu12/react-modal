@@ -1,0 +1,15 @@
+.input-content {
+  .input-message {
+    padding: 10px;
+  }
+  .content-input {
+    padding: 0 10px 15px 10px;
+  }
+  .button-panel {
+    display: flex;
+    justify-content: flex-end;
+    button {
+      margin: auto 5px;
+    }
+  }
+}
